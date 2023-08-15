@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -1px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+h1::after{
+    color: black;
+    display: block;
+    content: '...';
+    font-size: 26px;
+    line-height: 26px;
+    line-height: 24px;
+    height: 24px;
+    margin: 48px auto;
+    transition: 4s;
+}
